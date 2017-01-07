@@ -1,0 +1,16 @@
+.navbar-default {
+  background-color: #e74c3c;
+  border-bottom: 0;
+}
+
+.navbar-active {
+  background-color: #c0392b;
+}
+
+.navbar-default a {
+  color: #fff !important;
+}
+
+.navbar-default a:hover {
+  color: #ffbbbc !important;
+}
