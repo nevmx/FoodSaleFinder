@@ -8,7 +8,15 @@ app.set('view engine', 'jade')
 app.use('/static', express.static('public'))
 
 app.get('/', function (req, res) {
-  res.render('home')
+  res.render('home', {
+    title: "Food Sale Finder"
+  })
+})
+
+app.get('/find', function (req, res) {
+  res.render('browser', {
+    title: "Food Sale Finder"
+  }
 })
 
 app.listen(3000)
