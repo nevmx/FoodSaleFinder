@@ -1,7 +1,7 @@
 var express = require('express')
 
 var app = express()
-var websiteTitle = "McGill Food Map";
+var websiteTitle = "Food on Campus";
 
 app.set('views', './views')
 app.set('view engine', 'jade')
