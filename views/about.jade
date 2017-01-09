@@ -1,17 +1,33 @@
-head
-  title=title
-  link(href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', rel='stylesheet', integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u', crossorigin='anonymous')
-  link(href='static/bootstrap-override.css', rel='stylesheet')
-body
-  nav.navbar.navbar-default.navbar-fixed-top
-    div.container
-      div.navbar-header
-        a(class='navbar-brand', href='/') Food on Campus
-      div#navbar
-        ul.nav.navbar-nav
-          li
-            a(href='/') Home
-          li
-            a(href='/find') Find Food
-          li.navbar-active
-            a(href='#') About
+html
+  head
+    title=title
+    link(href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', rel='stylesheet', integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u', crossorigin='anonymous')
+    link(href='static/bootstrap-override.css', rel='stylesheet')
+    link(href='//fonts.googleapis.com/css?family=Roboto', rel='stylesheet')
+  body
+    nav.navbar.navbar-default.navbar-fixed-top
+      div.container
+        div.navbar-header
+          a(class='navbar-brand', href='/') Food on Campus
+        div#navbar
+          ul.nav.navbar-nav
+            li
+              a(href='/') Home
+            li
+              a(href='/find') Find Food
+            li.navbar-active
+              a(href='#') About
+
+    div.container.about-container
+      div.row
+        div.col-sm-4
+          img(src='static/img/stall.png', width='220' height='243', style='margin-top: 10px;')
+        div.col-sm-8
+          h1 Food on Campus
+          p(style='font-size: 20px;') Food on Campus is a student-run website that provides a map of various food sales around campus. The map is updated daily and the service is completely free. One website to find all your favourite food sales.
+          p(style='font-size: 14px; margin-top: 5px;') This website helps food sale organizers attract buyers. Contact the webmaster if you would like to advertise a food sale.
+      div.row(style='margin-top: 25px;')
+        div.col-sm-8
+          p(style='font-size: 20px; text-align: center;') Contact us if you would like to advertise a food sale.
+        div.col-sm-4
+          button.btn.btn-danger(style='margin-top: 15px;') CONTACT US
