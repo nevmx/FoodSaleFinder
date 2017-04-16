@@ -1,7 +1,7 @@
 {
   "name": "food-sale-finder",
   "version": "0.0.1",
-  "description": "This web allows users to find food sales nearby.",
+  "description": "This website allows users to find food sales nearby.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

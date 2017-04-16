@@ -96,3 +96,17 @@ body {
         max-width: 970px;
     }
 }
+
+/*
+    Main page under carousel
+*/
+.home-container {
+    margin-top: 30px;
+}
+
+.home-container h1 {
+    color: #e74c3c;
+    font-weight: 800;
+    font-family: 'Roboto';
+    font-size: 54;
+}
