@@ -110,3 +110,16 @@ body {
     font-family: 'Roboto';
     font-size: 54;
 }
+
+.home-container h2 {
+    color: #000;
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-size: 24;
+}
+
+.home-container p.text-bottom {
+    font-size: 14px;
+    margin-top: 50px;
+    text-shadow: none;
+}
