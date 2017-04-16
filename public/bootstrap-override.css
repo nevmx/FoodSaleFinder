@@ -12,13 +12,23 @@ body {
 }
 
 .carousel-caption {
-  top: 30px;
+  top: 0px;
+  padding-top: 5px;
 }
 
 .item,
 .active,
 .carousel-inner {
   height: 100%;
+}
+
+.carousel-inner h1, h3, p {
+  font-family: 'Roboto';
+  text-shadow: 2px 2px #000;
+}
+
+.carousel-inner p {
+  font-size: 22px;
 }
 
 .fill {
@@ -78,6 +88,7 @@ body {
 .about-container p {
   font-family: 'Roboto';
   margin: 20px 0;
+  text-shadow: none;
 }
 
 @media (min-width: 1200px) {
