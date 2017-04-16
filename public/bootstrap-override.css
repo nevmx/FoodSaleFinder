@@ -123,3 +123,10 @@ body {
     margin-top: 50px;
     text-shadow: none;
 }
+
+/*
+    Map page
+*/
+#map {
+    height: 100%;
+}
